@@ -18,13 +18,12 @@ const Footer = () => {
                     <div className="relative z-10">
                         <h2 className="text-3xl mb-4 primary-font font-semibold">Get in touch</h2>
                         <p className="text-gray-600 dark:text-gray-300 mb-10 max-w-xl mx-auto leading-relaxed">
-                            I&apos;m always interested in exploring new opportunities, collaborating, or exchanging ideas with like-minded individuals. Feel free to email me if you&apos;d like to see my portfolio deck.
-                        </p>
+                            I'm always open to new opportunities, meaningful collaborations, and conversations with people building things that matter. If you're looking for a frontend engineer who cares about both craft and impact — let's talk.                        </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             {/* Contact Me Button */}
                             <a
-                                href="mailto:gunal@example.com"
+                                href="mailto:balakrishnamoorthy77@gmail.com"
                                 className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-full bg-black px-8 text-white"
                             >
                                 <span className="mr-2">Contact me</span>
@@ -33,7 +32,7 @@ const Footer = () => {
 
                             {/* Download Resume Button */}
                             <a
-                                href="/assets/Gunal Product Designer.pdf"
+                                href="/assets/BKM_resume.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="group inline-flex h-12 items-center justify-center rounded-full bg-white px-8 text-black shadow-sm ring-1 ring-gray-200"
@@ -47,11 +46,11 @@ const Footer = () => {
 
                 {/* Footer Bottom Bar */}
                 <div className="flex flex-col sm:flex-row items-center justify-between gap-4 px-4 text-sm text-gray-500 dark:text-gray-400">
-                    <p>© 2026 Gunal — Built with intention.</p>
+                    <p>© 2026 Haiku Tech — Built with intention.</p>
 
                     <div className="flex items-center gap-6">
                         <a
-                            href="https://linkedin.com"
+                            href="https://www.linkedin.com/in/balakrishnamoorthys/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-black dark:hover:text-white transition-colors"
@@ -67,7 +66,7 @@ const Footer = () => {
                             X (Twitter)
                         </a>
                         <a
-                            href="mailto:gunalm4624@gmail.com"
+                            href="mailto:balakrishnamoorthy77@gmail.com"
                             className="hover:text-black dark:hover:text-white transition-colors"
                         >
                             Mail

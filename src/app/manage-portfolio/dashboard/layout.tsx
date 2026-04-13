@@ -75,7 +75,7 @@ export default function DashboardLayout({
                     {/* <div>
                         <SidebarLink
                             link={{
-                                label: "Gunal Portfolio",
+                                label: "BKM Portfolio",
                                 href: "/",
                                 icon: (
                                     <Image

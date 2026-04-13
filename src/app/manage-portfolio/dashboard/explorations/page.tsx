@@ -112,11 +112,15 @@ export default function ExplorationsPage() {
                 if (error) throw error;
                 toast.success("Exploration updated");
             } else {
-                const { error } = await supabase
+                const { data, error, status } = await supabase
                     .from("design_explorations")
                     .insert([workData]);
 
-                if (error) throw error;
+                // Check for actual failure - if status is not 201 and there's an error
+                if (error || status !== 201) {
+                    console.error('Insert failed:', { error, status, data });
+                    throw error || new Error('Insert failed');
+                }
                 toast.success("Exploration added");
             }
 

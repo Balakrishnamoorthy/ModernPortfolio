@@ -27,8 +27,8 @@ const satoshi = localFont({
 });
 
 export const metadata: Metadata = {
-    title: "Gunal M - Portfolio",
-    description: "Portfolio website for Gunal M - gunalm.design",
+    title: "BKM - Portfolio",
+    description: "Portfolio website for BKM ",
     icons: {
         icon: '/favicon.ico',
     },

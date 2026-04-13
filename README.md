@@ -1,6 +1,6 @@
-# Gunal M Portfolio
+# BKM Portfolio
 
-Portfolio website for **gunalm.design**
+Portfolio website for **bkm**
 
 ## Project Structure
 
@@ -52,4 +52,4 @@ npm run dev
 
 ## Domain
 
-This portfolio is designed for **gunalm.design**
+This portfolio is designed for **bkm**

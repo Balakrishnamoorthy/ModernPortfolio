@@ -3,23 +3,27 @@
 import Image from "next/image";
 
 const tools = [
-    { id: 1, name: "Lovable", logo: "/assets/images/lovable.png" },
-    { id: 2, name: "Antigravity", logo: "/assets/images/antigravity.png" },
-    { id: 3, name: "Figma", logo: "/assets/images/figma.png" },
-    { id: 3, name: "Framer", logo: "/assets/images/framer.png" },
-    { id: 4, name: "Gemini", logo: "/assets/images/gemini.png" },
-    { id: 5, name: "Webflow", logo: "/assets/images/webflow.png" },
-    { id: 6, name: "Miro", logo: "/assets/images/miro.svg" },
-    { id: 6, name: "Davinci Resolve", logo: "/assets/images/dr.jpeg" },
-    { id: 6, name: "Notion", logo: "/assets/images/notion.svg" },
-    { id: 6, name: "ChatGPT", logo: "/assets/images/ChatGPT.svg" },
+    { id: 1, name: "VS Code", logo: "/assets/images/vscode.png" },
+    { id: 2, name: "Git", logo: "/assets/images/git.png" },
+    { id: 3, name: "GitHub", logo: "/assets/images/github.png" },
+    { id: 4, name: "Antigravity", logo: "/assets/images/antigravity.png" },
+    { id: 5, name: "Vite", logo: "/assets/images/vite.png" },
+    { id: 6, name: "Playwright", logo: "/assets/images/playwright.png" },
+    { id: 7, name: "Postman", logo: "/assets/images/postman.png" },
+    { id: 8, name: "Insomnia", logo: "/assets/images/insomnia.png" },
+    { id: 9, name: "Docker", logo: "/assets/images/docker.png" },
+    { id: 10, name: "Figma", logo: "/assets/images/figma.png" },
+    { id: 11, name: "Framer", logo: "/assets/images/framer.png" },
+    { id: 12, name: "Notion", logo: "/assets/images/notion.svg" },
+    { id: 13, name: "ChatGPT", logo: "/assets/images/ChatGPT.svg" },
+    { id: 14, name: "Gemini", logo: "/assets/images/gemini.png" },
 ];
 
 const Tools = () => {
     return (
         <div className="pt-24">
             <div className="max-w-7xl mx-auto">
-                <p className="text-2xl mb-8 primary-font text-center font-semibold">Tools which I use on a daily basis.</p>
+                <p className="text-2xl mb-8 primary-font text-center font-semibold">Tools I ship with, daily.</p>
 
                 {/* Auto-sliding Marquee */}
                 <div className="relative overflow-hidden mt-16">

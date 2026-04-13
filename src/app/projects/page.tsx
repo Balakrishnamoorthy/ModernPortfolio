@@ -1,9 +1,5 @@
-import React from 'react'
+import { redirect } from 'next/navigation';
 
-const Works = () => {
-    return (
-        <div>Works</div>
-    )
+export default function ProjectsPage() {
+    redirect('/work');
 }
-
-export default Works

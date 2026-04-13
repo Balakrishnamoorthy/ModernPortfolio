@@ -129,7 +129,7 @@ export function CaseInteraction() {
 
                 {/* Center Content - Moved Down */}
                 <div className="mt-[270px] flex flex-col items-center gap-2">
-                    <p className="text-sm font-semibold text-gray-900">gunalm4624@gmail.com</p>
+                    <p className="text-sm font-semibold text-gray-900">balakrishnamoorthy77@gmail.com</p>
 
                     {/* Copy Button (Only visible when active) */}
                     <AnimatePresence>
@@ -138,7 +138,7 @@ export function CaseInteraction() {
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 animate={{ opacity: 1, scale: 1 }}
                                 exit={{ opacity: 0, scale: 0.8 }}
-                                onClick={(e) => handleCopy("gunalm4624@gmail.com", e)}
+                                onClick={(e) => handleCopy("balakrishnamoorthy77@gmail.com", e)}
                                 className="mt-2 flex items-center gap-2 px-3 py-1.5 bg-gray-100 hover:bg-gray-200 rounded-full text-xs font-medium transition-colors"
                             >
                                 {copied ? <Check className="w-3 h-3 text-green-500" /> : <Copy className="w-3 h-3" />}

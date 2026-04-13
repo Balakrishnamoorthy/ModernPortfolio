@@ -2,15 +2,8 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-
-  // Allow access to the home page
-  if (pathname === '/') {
-    return NextResponse.next();
-  }
-
-  // Redirect all other pages to home
-  return NextResponse.redirect(new URL('/', request.url));
+  // Middleware can be extended here if needed in the future
+  return NextResponse.next();
 }
 
 export const config = {

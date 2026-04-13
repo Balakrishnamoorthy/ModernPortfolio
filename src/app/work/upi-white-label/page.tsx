@@ -329,7 +329,7 @@ export default function UPIPaymentAppCaseStudy() {
                             <h3 className="text-3xl font-bold text-zinc-900">Voice-Powered Search</h3>
                         </div>
                         <p className="text-zinc-600 text-lg leading-relaxed max-w-3xl">
-                            Typing UPI IDs causes errors. For accessibility and convenience (especially popular with 40+ users), we added prominent voice search. Users can say &quot;gunalm@okaxis&quot; instead of typing—eliminating spelling mistakes and enabling hands-free operation.
+                            Typing UPI IDs causes errors. For accessibility and convenience (especially popular with 40+ users), we added prominent voice search. Users can say &quot;bkm@okaxis&quot; instead of typing—eliminating spelling mistakes and enabling hands-free operation.
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className="bg-gradient-to-br from-zinc-50 to-zinc-100/50 p-6 rounded-3xl border border-zinc-200/50">

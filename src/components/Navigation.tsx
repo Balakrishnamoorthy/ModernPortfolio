@@ -51,7 +51,7 @@ export default function Navigation() {
                     )}
                     onClick={() => setIsOpen(false)}
                 >
-                    gunalm.design
+                    BKM
                 </Link>
 
                 {/* Right Group: Desktop Menu + Ping Me */}

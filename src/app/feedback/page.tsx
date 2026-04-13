@@ -1,49 +1,75 @@
 "use client";
 
 import Image from "next/image";
-import { Linkedin } from "lucide-react";
 
 const feedbacks = [
     {
         id: 1,
-        content: "Gunal is an exceptional designer who perfectly balances aesthetics with functionality. His attention to detail is remarkable.",
-        name: "Sarah Johnson",
-        role: "Product Manager",
-        company: "TechCorp",
-        avatar: "/assets/images/lovable.png",
+        content: "Balakrishnamoorthy has a rare ability to translate complex requirements into clean, performant interfaces. His code is as thoughtful as his design sensibility — a truly reliable engineer to work with.",
+        name: "Ramesh Kumar",
+        role: "Senior Software Engineer",
+        company: "HEXCODEX",
+        avatar: "/assets/images/lovable.jpg",
         linkedin: "https://linkedin.com"
     },
     {
         id: 2,
-        content: "Working with Gunal was a breeze. He understood our requirements instantly and delivered designs that exceeded our expectations.",
-        name: "Michael Chen",
-        role: "Senior Developer",
-        company: "StartUp Inc",
-        avatar: "/assets/images/lovable.png",
+        content: "Bala is one of those developers who just gets it. He picks up context fast, writes maintainable code, and always delivers on time. Working alongside him was effortless.",
+        name: "SasiKumar",
+        role: "Software Engineer",
+        company: "Tata Consultancy Services",
+        avatar: "/assets/images/lovable.jpg",
         linkedin: "https://linkedin.com"
     },
     {
         id: 3,
-        content: "The user interface Gunal created for our app significantly improved our user engagement metrics. Highly recommended!",
-        name: "Emily Davis",
-        role: "UX Lead",
-        company: "Design Studio",
-        avatar: "/assets/images/lovable.png",
+        content: "As a fellow frontend developer at Haiku Technologies, I've seen Bala's work up close. He brings precision and user empathy to every component he builds — the kind of engineer who raises the bar for the whole team.",
+        name: "Haridharasaran",
+        role: "Frontend Developer",
+        company: "Haiku Technologies",
+        avatar: "/assets/images/lovable.jpg",
         linkedin: "https://linkedin.com"
     },
     {
         id: 4,
-        content: "Creative, professional, and incredibly talented. Gunal brought our vision to life in ways we hadn't even imagined.",
-        name: "David Wilson",
+        content: "Balakrishnamoorthy bridges the gap between design and engineering beautifully. He collaborated seamlessly across the full stack and always kept the end-user experience at the center of every decision.",
+        name: "Aravindar",
+        role: "Full Stack Developer",
+        company: "Cognizant",
+        avatar: "/assets/images/lovable.jpg",
+        linkedin: "https://linkedin.com"
+    },
+    {
+        id: 5,
+        content: "Bala built out the frontend for our video platform and the attention to detail was outstanding — smooth interactions, clean UI, and zero complaints from our users. Exactly what we needed.",
+        name: "Ajith",
+        role: "Video Editor",
+        company: "Fahhub",
+        avatar: "/assets/images/lovable.jpg",
+        linkedin: "https://linkedin.com"
+    },
+    {
+        id: 6,
+        content: "From a marketing lens, Bala's interfaces just convert. The landing pages and dashboards he crafted for us were visually compelling and optimized for engagement. He understands the product beyond just code.",
+        name: "Santhosh",
+        role: "Digital Marketer",
+        company: "Fahhub",
+        avatar: "/assets/images/lovable.jpg",
+        linkedin: "https://linkedin.com"
+    },
+    {
+        id: 7,
+        content: "We needed a tech partner who could think like a founder — Balakrishnamoorthy delivered exactly that. He built our platform with scalability in mind and made the whole experience feel premium from day one.",
+        name: "Saravankumar",
         role: "Founder",
-        company: "NextGen Solutions",
-        avatar: "/assets/images/lovable.png",
+        company: "HariHari Bags",
+        avatar: "/assets/images/lovable.jpg",
         linkedin: "https://linkedin.com"
     }
 ];
 
 const FeedbackCard = ({ feedback }: { feedback: typeof feedbacks[0] }) => (
-    <div className="flex-shrink-0 w-[400px] h-[350px] p-8 bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 flex flex-col">
+    <div className="flex-shrink-0 w-[400px] h-[300px] p-8 bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 flex flex-col">
         <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
             &quot;{feedback.content}&quot;
         </p>
@@ -63,14 +89,6 @@ const FeedbackCard = ({ feedback }: { feedback: typeof feedbacks[0] }) => (
                     <h4 className="font-semibold text-lg dark:text-white">
                         {feedback.name}
                     </h4>
-                    <a
-                        href={feedback.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:scale-110 transition-transform"
-                    >
-                        <Linkedin className="w-4 h-4" />
-                    </a>
                 </div>
                 <p className="text-sm text-gray-500">
                     {feedback.role} @ {feedback.company}
@@ -118,12 +136,12 @@ const Feedback = () => {
                         transform: translateX(0);
                     }
                     100% {
-                        transform: translateX(-33.33%);
+                        transform: translateX(-220%);
                     }
                 }
                 
                 .animate-marquee {
-                    animation: marquee 20s linear infinite;
+                    animation: marquee 15s linear infinite;
                 }
                 
                 @media (max-width: 768px) {
