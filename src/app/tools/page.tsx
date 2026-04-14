@@ -14,9 +14,8 @@ const tools = [
     { id: 9, name: "Docker", logo: "/assets/images/docker.png" },
     { id: 10, name: "Figma", logo: "/assets/images/figma.png" },
     { id: 11, name: "Framer", logo: "/assets/images/framer.png" },
-    { id: 12, name: "Notion", logo: "/assets/images/notion.svg" },
-    { id: 13, name: "ChatGPT", logo: "/assets/images/ChatGPT.svg" },
-    { id: 14, name: "Gemini", logo: "/assets/images/gemini.png" },
+    { id: 12, name: "ChatGPT", logo: "/assets/images/ChatGPT.svg" },
+    { id: 13, name: "Gemini", logo: "/assets/images/gemini.png" },
 ];
 
 const Tools = () => {

@@ -17,7 +17,7 @@ export interface DesignWork {
     category: string;
 }
 
-const categories = ["All", "Landing Pages", "Ecommerce Website", "App Design", "Web Design", "Dashboard Design"];
+const categories = ["All", "Landing Pages", "Ecommerce Website", "Portfolios", "Web Applications", "Dashboard Design"];
 
 interface Props {
     works: DesignWork[];
@@ -30,7 +30,7 @@ export default function DesignExplorationsClient({ works }: Props) {
     // Ensure initialCategory matches one of our known categories, otherwise default to "All"
     // Case-insensitive match or exact? The prompt implies exact string matching "Landing Page" -> "Landing Pages" (plural?)
     // In MoreWorks, titles are "Landing Page", "Website Design".
-    // In Explorations, categories are "Landing Pages", "Web Design", etc.
+    // In Explorations, categories are "Landing Pages", "Web Applications", etc.
     // I need to map them or be careful.
 
     // Let's just set state from param.

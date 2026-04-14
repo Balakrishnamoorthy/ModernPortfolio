@@ -30,7 +30,7 @@ export function AnimatedFolder({ title, projects, className, href }: AnimatedFol
         setIsHovered(true)
 
         // Create and play audio instance for instant feedback
-        const audio = new Audio("/assets/Sounds/Folder.mp3")
+        const audio = new Audio("/assets/Sounds/fahhhhh.mp3")
         audio.volume = 0.5
         audio.play().catch(() => {
             // Audio playback might be blocked if no user interaction occurred yet

@@ -6,54 +6,60 @@ import { AnimatedFolder, Project } from "@/components/ui/animated-folder";
 const landingPageProjects: Project[] = [
     {
         id: "1",
-        title: "Travel Website",
+        title: "SJR Photography",
         image: "/assets/images/animated-folder-landing-page-1.png",
     },
     {
         id: "2",
-        title: "Zoho Bigin",
+        title: "Homework Hub",
         image: "/assets/images/animated-folder-landing-page-2.png",
     },
     {
         id: "3",
-        title: "SBI Landing Page",
+        title: "Vibe Route Tours and Travels",
         image: "/assets/images/animated-folder-landing-page-3.png",
-    },
+    }
 ];
 
 const websiteDesignProjects: Project[] = [
     {
-        id: "5",
-        title: "Hiphop Tamizha Website",
+        id: "3",
+        title: "Expense Tracker Website",
         image: "/assets/images/animated-folder-website-1.png",
     },
     {
-        id: "6",
-        title: "A2D Website",
+        id: "4",
+        title: "Love stories Website",
         image: "/assets/images/animated-folder-website-2.png",
     },
     {
-        id: "7",
-        title: "MK Networks Website",
+        id: "5",
+        title: "Video call POC Website",
         image: "/assets/images/animated-folder-website-3.png",
+    },
+    {
+        id: "6",
+        title: "Bill and Inventory Website",
+        image: "/assets/images/animated-folder-website-4.png",
+    },
+    {
+        id: "7",
+        title: "Wee Chat Website",
+        image: "/assets/images/animated-folder-website-5.png",
     }
+
 ];
 
-const appDesignProjects: Project[] = [
+const appDesignProjects: Project[] = [    
     {
         id: "8",
-        title: "Nike App",
-        image: "/assets/images/animated-folder-app-1.png",
+        title: "Balakrishnamoorthy Portfolio",
+        image: "/assets/images/animated-folder-port-1.png",
     },
     {
         id: "9",
-        title: "UTS App Redesign",
-        image: "/assets/images/animated-folder-app-2.png",
-    },
-    {
-        id: "10",
-        title: "Invoicing App",
-        image: "/assets/images/animated-folder-app-3.png",
+        title: "Ajith Joshuva Portfolio",
+        image: "/assets/images/animated-folder-port-2.png",
     }
 ];
 
@@ -74,13 +80,13 @@ export default function MoreWorksPage() {
                         title="Website Design"
                         projects={websiteDesignProjects}
                         className="w-full aspect-[4/5] md:aspect-auto md:h-[500px]"
-                        href="/design-explorations?category=Web Design"
+                        href="/design-explorations?category=Web Applications"
                     />
                     <AnimatedFolder
-                        title="App Design"
+                        title="Portfolios"
                         projects={appDesignProjects}
                         className="w-full aspect-[4/5] md:aspect-auto md:h-[500px]"
-                        href="/design-explorations?category=App Design"
+                        href="/design-explorations?category=Portfolios"
                     />
                 </div>
             </div>
